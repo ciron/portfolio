@@ -130,6 +130,13 @@
     display: block;
     text-align: center;
 }
+
+.project-card .overlay-text p {
+    display: block;
+    -webkit-line-clamp: unset;
+    -webkit-box-orient: unset;
+    overflow: visible;
+}
  #education ul {
      list-style-type: disc;
      padding-left: 20px;
